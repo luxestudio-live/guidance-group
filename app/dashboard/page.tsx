@@ -484,11 +484,11 @@ export default function DashboardPage() {
                     <div className="flex flex-col gap-3">
                       <div className="flex items-center justify-between rounded-md bg-muted px-3 py-2">
                         <span className="text-xs text-muted-foreground">Next Batch Start</span>
-                        <span className="text-xs font-medium text-foreground">1 Feb 2025</span>
+                        <span className="text-xs font-medium text-foreground">10th Feb 2026</span>
                       </div>
                       <div className="flex items-center justify-between rounded-md bg-muted px-3 py-2">
                         <span className="text-xs text-muted-foreground">Classes Timing</span>
-                        <span className="text-xs font-medium text-foreground">9 AM - 5 PM</span>
+                        <span className="text-xs font-medium text-foreground">10 AM - 6 PM</span>
                       </div>
                     </div>
                   </CardContent>
