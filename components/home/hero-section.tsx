@@ -8,7 +8,7 @@ export function HeroSection() {
     <section className="relative overflow-hidden bg-primary">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-students.jpg"
+          src="/images/hero-students.svg"
           alt="Students studying at Guidance Group"
           fill
           className="object-cover opacity-20"

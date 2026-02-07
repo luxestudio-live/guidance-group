@@ -132,7 +132,7 @@ export default function AboutPage() {
             <div className="grid items-center gap-12 lg:grid-cols-2">
               <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
                 <Image
-                  src="/images/classroom.jpg"
+                  src="/images/classroom.svg"
                   alt="Guidance Group classroom"
                   fill
                   className="object-cover"
