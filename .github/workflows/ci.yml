@@ -45,12 +45,12 @@ jobs:
       run: pnpm lint
       continue-on-error: true
 
-    - name: Build project
+    - name: Build static site
       run: pnpm build
 
-    - name: Upload build artifacts
+    - name: Upload static site
       uses: actions/upload-artifact@v4
       with:
-        name: build-output
-        path: .next
+        name: static-site
+        path: out
         retention-days: 7

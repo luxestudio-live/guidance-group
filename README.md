@@ -84,7 +84,18 @@ For Vercel deployment, add these secrets to your GitHub repository:
 
 ## Deployment
 
-### Vercel (Recommended)
+### GitHub Pages (Static Site)
+
+The site is configured to deploy automatically as a static website to GitHub Pages:
+
+1. Push code to the `main` branch
+2. GitHub Actions will build and deploy automatically
+3. Enable GitHub Pages in repository settings:
+   - Go to Settings → Pages
+   - Source: GitHub Actions
+4. Your site will be live at: `https://luxestudio-live.github.io/guidance-group/`
+
+### Vercel (Alternative)
 
 1. Push code to GitHub
 2. Import project in Vercel
@@ -95,8 +106,11 @@ Or use the GitHub Actions workflow included in `.github/workflows/deploy.yml`
 ### Manual Deployment
 
 ```bash
+# Build static site
 pnpm build
-pnpm start
+
+# The static files will be in the 'out' directory
+# Upload the 'out' folder to any static hosting service
 ```
 
 ## Contact

@@ -1,0 +1,5 @@
+# Static export output directory
+out/
+
+# Build output
+.next/
