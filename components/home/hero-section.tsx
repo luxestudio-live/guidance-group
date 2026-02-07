@@ -5,15 +5,10 @@ import { ArrowRight, GraduationCap } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-primary">
+    <section className="relative overflow-hidden bg-gradient-to-br from-primary via-primary to-primary/90">
       <div className="absolute inset-0 z-0">
-        <Image
-          src="/images/hero-students.svg"
-          alt="Students studying at Guidance Group"
-          fill
-          className="object-cover opacity-20"
-          priority
-        />
+        <div className="absolute inset-0 bg-[url('/images/hero-pattern.svg')] opacity-5" />
+        <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
       </div>
       <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center px-4 py-20 text-center lg:px-8 lg:py-32">
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-secondary/40 bg-secondary/10 px-4 py-2">
